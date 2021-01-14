@@ -104,8 +104,9 @@
                 $nav.hide(0);
                 setTimeout(resizeFn,10);
 
+                //NAV  네비게이션 이벤트                
                 //햄버거 메뉴 클릭하면 기억하는 변수 설정
-                //NAV  네비게이션 이벤트
+
                 $menuBar.on({
                     click:  function(e){
                         e.preventDefault();
